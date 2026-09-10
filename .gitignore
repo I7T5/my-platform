@@ -1,0 +1,75 @@
+# =========================
+# Java / Gradle
+# =========================
+.gradle/
+build/
+out/
+target/
+
+# Compiled Java classes
+*.class
+*.jar
+*.war
+*.ear
+
+# JVM crash logs
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Node / React / Vite
+# =========================
+node_modules/
+dist/
+coverage/
+.vite/
+.vite-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tsbuildinfo
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.template
+
+*.pem
+*.key
+*.p12
+*.jks
+*.keystore
+
+# =========================
+# Operating System
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+Thumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+.Spotlight-V100/
+.Trashes/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
