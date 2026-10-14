@@ -13,6 +13,7 @@ function App() {
       </p>
 
       <p>Initial frontend setup in progress.</p>
+      <p>COMP 451 Senior Capstone, Fall 2026-Spring 2027</p>
     </main>
   )
 }
